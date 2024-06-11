@@ -1,6 +1,6 @@
 // src/services/spotifyAuth.js
 const clientId = 'fff52002aa8b477a8622d8e24f1d62fd';
-const redirectUri = 'http://localhost:5173'; // Asegúrate de que esta URL coincida con la configuración de tu app en el Dashboard de Spotify
+const redirectUri = 'https://deylahdz.github.io/Dashboard-Interactivo-Frontend/'; // Asegúrate de que esta URL coincida con la configuración de tu app en el Dashboard de Spotify
 const scope = 'user-read-private user-read-email user-top-read';
 
 const generateRandomString = (length) => {
