@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { getAuthUrl, getToken } from './services/spotifyAuth';
 import SongCharts from './components/SongCharts';
 import TopArtists from './components/TopArtists';
-import TopArtistsPieChart from './components/TopArtistsPieChart';
 
 const App = () => {
   const [token, setToken] = useState(null);
